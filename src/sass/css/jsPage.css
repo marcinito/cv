@@ -1,0 +1,11 @@
+.jsPage {
+  font-family: 'Josefin Sans';
+  text-align: center;
+}
+
+.h1TitleJs {
+  letter-spacing: 3px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px orange;
+}
+/*# sourceMappingURL=jsPage.css.map */

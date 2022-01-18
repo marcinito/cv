@@ -1,0 +1,51 @@
+.aboutme{
+    font-family: 'Josefin Sans';
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    // animation:h1 3s alternate-reverse infinite;
+}
+@keyframes h1{
+    0%{font-size:2.98rem; color:black;transform:translateX(10px)}
+   100%{font-size:3rem ; color:lighten(black,80%);transform:translateX(-10px)}
+}
+.firstp{
+    font-size:1.5rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+    color:darkblue;
+   
+}
+.pp{
+    font-size:1.5rem;
+    display:flex;
+    justify-content: center;
+    margin-top:3%;
+  
+}
+.kolo{
+    width:30%;
+    animation:kolo 15s infinite linear;
+}
+@keyframes kolo{
+    0%{transform:rotate(180deg)}
+    100%{transform:rotate(0deg)}
+}
+em{
+    margin-top:1%;
+    color:darkblue;
+}
+em a{
+    color:red;
+    font-weight:bold;
+    letter-spacing: 3px;
+}
