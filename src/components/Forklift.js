@@ -1,14 +1,23 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import licencjawozki from '../img/licencjawozki.jpg'
 import {useNavigate} from 'react-router-dom'
-function Forklift() {
+import {actionCreator} from '../redux/index'
+import {bindActionCreators} from 'redux'
+import {useDispatch,useSelector} from 'react-redux'
+function Forklift(props) {
+    const dispatch=useDispatch()
+    const {height}=bindActionCreators(actionCreator,dispatch)
+    useEffect(()=>{
+height(props.gave.current.offsetHeight)
+props.send.b(!props.send.a)
+    },[])
     const navigate=useNavigate()
     return (
         <div className="forkliftPage">
    <h1 className="h1Title">I own <span style={{color:"darkblue"}}>Polish</span> and <span style={{color:"blue"}}>English</span> license to work on forklift</h1><br/>
-   <p>In Poland i get qualifications in <em>23.12.2016</em> in <span>England</span> I get qualifications in <em>26.08.2018</em> </p> <br/>
+   <p style={{textAlign:"center",color:"skyblue"}}>In Poland i get qualifications in <em>23.12.2016</em> in <span>England</span> I get qualifications in <em>26.08.2018</em> </p> <br/>
 
-  <h2>In my experience as forklift driver i have responsibilities like:</h2>
+  <h2 className="h2Text">In my experience as forklift driver i have responsibilities like:</h2>
   <br/>
   <ul className="ulListRes">
       <li><span style={{color:"red"}}>⥌</span> Loading and unloading materials from a variety of vehicles</li>
@@ -29,7 +38,7 @@ function Forklift() {
 <br/>
 <h1 className="h1Certify">Certify</h1>
 
-<img className="licencjaWozki" src={licencjawozki} alt="licenjca"></img>
+<img className="licenceForkLift" src={licencjawozki} alt="licenjca"></img>
 <br/>
 <a href="#">donowald</a>
 

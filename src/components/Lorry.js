@@ -1,7 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import lorrygif from '../img/lorrygif.gif'
 import {useNavigate} from 'react-router-dom'
-function Lorry() {
+import {actionCreator} from '../redux/index'
+import {bindActionCreators} from 'redux'
+import {useDispatch,useSelector} from 'react-redux'
+function Lorry(props) {
+    const dispatch=useDispatch()
+    const {height}=bindActionCreators(actionCreator,dispatch)
+    useEffect(()=>{
+        height(props.gave.current.offsetHeight)
+props.send.b(!props.send.a)
+
+    },[])
     const navigate=useNavigate()
     return (
         <div className="loryPage">

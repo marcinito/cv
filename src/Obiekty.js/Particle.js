@@ -12,7 +12,7 @@ export default class Particle{
         this.height=Math.floor(Math.random()*15)
         this.speedX=Math.random()*3-1.5
         this.speedY=Math.random()*3-1.5
-        this.color=`yellow`
+        this.color=`crimson`
         
     }
     draw(ctx){
@@ -38,7 +38,7 @@ this.hsl+=5
     
 }
 function make100(){
-    for(let i=0;i<100;i++){
+    for(let i=0;i<10;i++){
         tablica.push(new Particle())
     }
 }

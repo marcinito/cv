@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,WAAW,EAAE,cAAc;EAC3B,UAAU,EAAC,MAAM;CACpB;;AACD,AAAA,UAAU,CAAA;EAEN,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,IAAI;EACjB,mBAAmB,EAAC,UAAU;CACjC",
-    "sources": [
-        "../jsPage.scss"
-    ],
-    "names": [],
-    "file": "jsPage.css"
-}

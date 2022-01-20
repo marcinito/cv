@@ -1,28 +1,270 @@
-
-@import './sass/navbar';
-@import './sass/content';
-@import './sass/abotme';
-@import './sass//contact';
-@import './sass/cred';
-@import './sass/forkliftPage';
-@import './sass/lorry';
-@import './sass//jsPage.scss';
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
+$stroke:1px white;
+@media (min-width:320px){
+    //*App-Components*//
+    .container{
+        max-width:100%;
+    //    height:100vh;
+        overflow:hidden;
+        font-family: 'Josefin Sans';
+        
+     
+    }
+    #canvas{
+       
+        position:absolute;
+        z-index:-1;
+        background:linear-gradient(135deg,gray,gray,gray,blue)
+    }
+    //*Navbar*//
+.nav{
 
-.container{
-    height:100vh;
-    width:100%;
-box-sizing: border-box;
-background: black;
-z-index:-1;
-cursor: url('./img/marcin.png')20,30 hand;
-}
-#canvas{
-   background:linear-gradient(45deg,black,darkred);
-    position:absolute;
+    height:10vh;
+    background-color: darken(orange,1%);
+    border-bottom: 5px solid black;    
+    border-top: 5px solid black;    
+   
   
 }
+.ulNavbar{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    align-items: center;
+    list-style-type:none;
+}
+.ulNavbar a{
+    font-size:1.5rem;
+    text-decoration: none;
+    font-weight:bold;
+    -webkit-text-stroke:1px darkblue;
+    color:yellow;
+    height:100%;
+    width:100%;
+  
+}
+.me{
+    
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.contact{
+    justify-content: center;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.cred{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+/*-------------------------------------------*/
+.aboutme{
+
+height:90vh;
+}
+.name{
+    text-align:center;
+    -webkit-text-stroke:$stroke;
+    font-weight:bold;
+}
+.firstp{
+    text-align:center;
+    font-size:1.5rem;
+    color:darkgreen;
+}
+.pp{
+    font-size:1.5rem;
+    text-align: center;
+    color:orange
+}
+
+.circle{
+    width:100%;
+   position:relative;
+  left:50%;
+  transform:translate(-100%,-0%);
+  
+ 
+   animation:runCircle 20s infinite linear;
+}
+@keyframes runCircle{
+    0%{
+        transform:rotate(360deg)
+    }
+    100%{
+        transform:rotate(0deg)
+    }
+}
+.emClass{
+    color:darkblue;
+    text-align:center;
+    height:10%;
+    -webkit-text-stroke:1px yellow;
+}
+.klik{
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0%);
+    font-size:1.5rem;
+    -webkit-text-stroke:$stroke;
+}
+//*CONTACT*//
+.contact1{
+overflow:hidden;
+}
+.h1contact{
+    -webkit-text-stroke:1px darkred;
+    text-align:center;
+}
+.fon{
+    text-align:center;
+}
+.byfon{
+    font-size:2.5rem;
+    color:red;
+    -webkit-text-stroke:1px darkblue;
+}
+.telefon{
+  position:relative;
+  left:50%;
+  transform:translate(-50%,0%); 
+    width:40%;
+}
+.h1email
+{
+    -webkit-text-stroke:1px darkred;
+    text-align:center;
+}
+.byemail{
+   
+   
+   
+}
+
+#email{
+    background-color: skyblue;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0%);
+}
+.textarea{
+    height:100px;
+    width:300px;
+    background:skyblue;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0%);
+
+}
+.send{
+    position:relative;
+    left:50%;
+    
+    width:95%;
+  
+    background: linear-gradient(to right,gray,darkblue);
+    color:white;
+    font-size:1.5rem;
+    transform:translate(-50%,0%)
+
+
+}
+.label{
+    position: relative;
+    left:30%;
+    color:darkred;
+    
+}
+//*CREDENTIALS*//
+.kwalifikacje{
+ min-height:fit-content;
+    
+}
+.row{
+border:5px solid green;
+display:flex;
+flex-direction: column;
+}
+.imgI{
+    width:30%;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0)
+}
+.contentActive{
+    min-height:fit-content;
+
+}
+.describe{
+text-align:center;
+}
+.p{
+    color:darkorange;
+    font-size:1.5rem;
+}
+em{
+    display:flex;
+margin-top:2%;
+    justify-content: center;
+    width:100%;
+}
+.link{
+    margin-top:2%;
+    text-align: center;
+    font-weight:bold;
+    -webkit-text-stroke:1px skyblue;
+}
+//*ForkLift*//
+.forkliftPage{
+  
+}
+.h1Title{
+    text-align:center;
+    margin-top:7%;
+}
+.h2Text{
+    color:darkorange;
+    text-align:center;
+    -webkit-text-stroke:.7px blue;
+}
+.ulListRes{
+    text-align:center;
+}
+.h1SecondTitle{
+    text-align:center;
+    -webkit-text-stroke:0.2px white;
+}
+.nazwaFirmy{
+    font-size:1.2rem;
+    color:darkgreen;
+    text-align:center;
+}
+.return{
+    width:100%;
+    height:40px;
+    border:none;
+    box-shadow:2px 2px 2px 4px gray;
+    background-color: lighten(gray,10%);
+    color:white;
+    font-size:1.5rem;
+}
+.h1Certify{
+    text-align:center;
+    text-decoration: underline red wavy;
+}
+.licenceForkLift{
+    width:100%;
+}
