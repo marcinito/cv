@@ -124,6 +124,7 @@ height:90vh;
 //*CONTACT*//
 .contact1{
 overflow:hidden;
+background: linear-gradient(45deg,gra,blue);
 }
 .h1contact{
     -webkit-text-stroke:1px darkred;
@@ -148,11 +149,7 @@ overflow:hidden;
     -webkit-text-stroke:1px darkred;
     text-align:center;
 }
-.byemail{
-   
-   
-   
-}
+
 
 #email{
     background-color: skyblue;
@@ -161,8 +158,8 @@ overflow:hidden;
     transform:translate(-50%,0%);
 }
 .textarea{
-    height:100px;
-    width:300px;
+    width:80%;
+    height:200px;
     background:skyblue;
     position:relative;
     left:50%;
@@ -292,3 +289,7 @@ margin-top:2%;
         text-align:center;
 
     }
+.active {
+    color:red;
+    
+}

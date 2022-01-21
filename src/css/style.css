@@ -157,6 +157,7 @@
 
 .contact1 {
   overflow: hidden;
+  background: linear-gradient(45deg, gra, blue);
 }
 
 .h1contact {
@@ -196,8 +197,8 @@
 }
 
 .textarea {
-  height: 100px;
-  width: 300px;
+  width: 80%;
+  height: 200px;
   background: skyblue;
   position: relative;
   left: 50%;
@@ -358,5 +359,9 @@ em {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
+}
+
+.active {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
