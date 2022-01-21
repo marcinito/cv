@@ -7,12 +7,7 @@ import {useDispatch,useSelector} from 'react-redux'
 function Lorry(props) {
     const dispatch=useDispatch()
     const {height}=bindActionCreators(actionCreator,dispatch)
-    useEffect(()=>{
-        height(props.gave.current.offsetHeight)
-props.send.b(!props.send.a)
-props.give(false)
 
-    },[])
     const navigate=useNavigate()
     return (
         <div className="loryPage">
