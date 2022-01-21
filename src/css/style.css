@@ -354,7 +354,9 @@ em {
 
 .loryPage {
   background: linear-gradient(135deg, gray, gray, gray, blue);
-  height: 90vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
