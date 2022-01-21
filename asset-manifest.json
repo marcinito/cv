@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.e5c532f6.css",
-    "main.js": "/cv/static/js/main.c6a79050.js",
+    "main.css": "/cv/static/css/main.c59534a4.css",
+    "main.js": "/cv/static/js/main.04c26ede.js",
     "static/media/licencjawozki.jpg": "/cv/static/media/licencjawozki.a12d5cf067fae6ed59e7.jpg",
     "static/media/wozek.png": "/cv/static/media/wozek.1885e982d3243451d810.png",
     "static/media/telefon.png": "/cv/static/media/telefon.ebe7c95e6e87a28be152.png",
@@ -13,11 +13,11 @@
     "static/media/html.png": "/cv/static/media/html.663842791fd8090149e3.png",
     "static/media/css.png": "/cv/static/media/css.9bf706dd8154d82aadf7.png",
     "index.html": "/cv/index.html",
-    "main.e5c532f6.css.map": "/cv/static/css/main.e5c532f6.css.map",
-    "main.c6a79050.js.map": "/cv/static/js/main.c6a79050.js.map"
+    "main.c59534a4.css.map": "/cv/static/css/main.c59534a4.css.map",
+    "main.04c26ede.js.map": "/cv/static/js/main.04c26ede.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5c532f6.css",
-    "static/js/main.c6a79050.js"
+    "static/css/main.c59534a4.css",
+    "static/js/main.04c26ede.js"
   ]
 }
