@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.c192d8de.css",
+    "main.css": "/cv/static/css/main.febcffde.css",
     "main.js": "/cv/static/js/main.4ae04d55.js",
     "static/media/licencjawozki.jpg": "/cv/static/media/licencjawozki.a12d5cf067fae6ed59e7.jpg",
     "static/media/wozek.png": "/cv/static/media/wozek.1885e982d3243451d810.png",
@@ -13,11 +13,11 @@
     "static/media/html.png": "/cv/static/media/html.663842791fd8090149e3.png",
     "static/media/css.png": "/cv/static/media/css.9bf706dd8154d82aadf7.png",
     "index.html": "/cv/index.html",
-    "main.c192d8de.css.map": "/cv/static/css/main.c192d8de.css.map",
+    "main.febcffde.css.map": "/cv/static/css/main.febcffde.css.map",
     "main.4ae04d55.js.map": "/cv/static/js/main.4ae04d55.js.map"
   },
   "entrypoints": [
-    "static/css/main.c192d8de.css",
+    "static/css/main.febcffde.css",
     "static/js/main.4ae04d55.js"
   ]
 }
