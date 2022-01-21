@@ -13,7 +13,7 @@ function Content(props) {
     const contentRef=useRef()
 const [flag,setFlag]=useState("")
 useEffect(()=>{
- console.log(contentRef)
+
     if(flag===true){
         contentRef.current.classList.add("contentActive")
       
@@ -33,7 +33,7 @@ useEffect(()=>{
               <Route path="/contact" element={<Contact give={setFlag} gave={contentRef}  send={props.daj}/>}></Route>
               <Route path="/credentials" element={<Credentials gave={contentRef} send={props.daj} give={setFlag}  />}/>
               <Route path="/forklift" element={<Forklift gave={contentRef} send={props.daj} give={setFlag} />}/>
-              <Route path="/HGV-licence" element={<Lorry send={props.daj} gave={contentRef} give={setFlag} />}/>
+              <Route path="/HGV-licence" element={<Lorry send={props.daj} gave={contentRef} give={setFlag} git2={props.git} />}/>
               <Route path="/java-script" element={<JavaScript gave={contentRef} send={props.daj} give={setFlag} />}/>
                 
                  

@@ -7,11 +7,12 @@ function Aboutme(props) {
     const cos=useSelector(state=>state.height.height)
     const dispatch=useDispatch()
     const {height}=bindActionCreators(actionCreator,dispatch)
-    useEffect(()=>{
+    useEffect(()=>{  
     props.give(false)
-    
-    // height(window.innerHeight)
-    // props.send.b(!props.send.a)
+ 
+    height(window.innerHeight)
+    props.send.b(!props.send.a)
+
     },[])
     return (
         <div className="aboutme">

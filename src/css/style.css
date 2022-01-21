@@ -15,6 +15,7 @@
     position: absolute;
     z-index: -1;
     background: linear-gradient(135deg, gray, gray, gray, blue);
+    top: 10%;
   }
   .nav {
     height: 10vh;
@@ -86,7 +87,7 @@
 
 /*-------------------------------------------*/
 .aboutme {
-  height: 90vh;
+  height: 100vh;
 }
 
 .name {
@@ -361,7 +362,237 @@ em {
   text-align: center;
 }
 
-.active {
-  color: red;
+@media (min-width: 499px) {
+  .container {
+    max-width: 100%;
+    overflow: hidden;
+    font-family: 'Josefin Sans';
+  }
+  #canvas {
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(135deg, gray, gray, gray, blue);
+    top: 10%;
+  }
+  .nav {
+    height: 10vh;
+    background-color: #faa200;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+  }
+  .ulNavbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style-type: none;
+  }
+  .ulNavbar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-text-stroke: 1px darkblue;
+    color: yellow;
+    height: 100%;
+    width: 100%;
+  }
+  .me {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cred {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*-------------------------------------------*/
+  .aboutme {
+    height: 100vh;
+  }
+  .name {
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-weight: bold;
+  }
+  .firstp {
+    text-align: center;
+    font-size: 1.5rem;
+    color: darkgreen;
+  }
+  .pp {
+    font-size: 1.5rem;
+    text-align: center;
+    color: orange;
+  }
+  .circle {
+    width: 60%;
+    position: relative;
+    left: 25%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    -webkit-animation: runCircle 20s infinite linear;
+            animation: runCircle 20s infinite linear;
+  }
+  @-webkit-keyframes runCircle {
+    0% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  @keyframes runCircle {
+    0% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  .emClass {
+    color: darkblue;
+    text-align: center;
+    height: 10%;
+    -webkit-text-stroke: 1px yellow;
+  }
+  .klik {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px white;
+  }
+  .contact1 {
+    overflow: hidden;
+    background: linear-gradient(45deg, gra, blue);
+  }
+  .h1contact {
+    -webkit-text-stroke: 1px darkred;
+    text-align: center;
+  }
+  .fon {
+    text-align: center;
+  }
+  .byfon {
+    font-size: 2.5rem;
+    color: red;
+    -webkit-text-stroke: 1px darkblue;
+  }
+  .telefon {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    width: 40%;
+  }
+  .h1email {
+    -webkit-text-stroke: 1px darkred;
+    text-align: center;
+  }
+  #email {
+    background-color: skyblue;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  .textarea {
+    width: 80%;
+    height: 270px;
+    background: skyblue;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  .send {
+    position: relative;
+    left: 50%;
+    top: 1%;
+    width: 95%;
+    height: 50px;
+    background: -webkit-gradient(linear, left top, right top, from(gray), to(darkblue));
+    background: linear-gradient(to right, gray, darkblue);
+    color: white;
+    font-size: 1.5rem;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  .label {
+    position: relative;
+    left: 30%;
+    color: darkred;
+  }
+  .kwalifikacje {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    background: linear-gradient(135deg, gray, gray, gray, blue);
+    z-index: -2;
+  }
+  .jsPage {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .aboutJS {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .h1TitleJs {
+    -webkit-text-stroke: 1px blue;
+    color: yellow;
+  }
+  .jsbtn {
+    position: relative;
+  }
+  .loryPage {
+    background: linear-gradient(135deg, gray, gray, gray, blue);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: 1.6rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -36,7 +36,7 @@ function JavaScript(props) {
             <br/>
             <br/>
             <br/>
-            <button className="return" onClick={(()=>navigate("/credentials"))}>return</button>
+            <button className="return jsbtn" onClick={(()=>navigate("/credentials"))}>return</button>
         </div>
     )
 }

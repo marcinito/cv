@@ -9,7 +9,7 @@ function Contact(props) {
     const {height}=bindActionCreators(actionCreator,dispatch)
     useEffect(()=>{
         props.give(false)
-        
+       
         // height(window.innerHeight)
         // props.send.b(!props.send.a)
         },[])

@@ -11,14 +11,16 @@ import {bindActionCreators} from 'redux'
 function App() {
     const dispatch=useDispatch()
   const [flaga,setFlaga]=useState(false)
+
     const {height}=bindActionCreators(actionCreator,dispatch)
-       const siema=useSelector(state=>state.height.height)
+       let siema=useSelector(state=>state.height.height)
 
-   
-    console.log(window.innerHeight)
+
     const canvasRef=useRef()
-
+   
     useEffect(()=>{
+       
+      
         console.log("cos sie zmienilop")
 height(window.innerHeight)
 const canvas=canvasRef.current
@@ -28,8 +30,10 @@ let CANVAS_HEIGHT=siema
 
 canvas.width=window.innerWidth
 canvas.height=siema
+if(height<300){
 
-console.log(CANVAS_HEIGHT)
+}
+
 new Particle(CANVAS_WIDTH,CANVAS_HEIGHT)
 let hue=0
 let tablica=[]
@@ -70,7 +74,7 @@ animate()
 <nav><Navbar/></nav>
 
    
-    <Content daj={{a:flaga,b:setFlaga}} />
+    <Content git={canvasRef.current} daj={{a:flaga,b:setFlaga}} />
   
 
    
