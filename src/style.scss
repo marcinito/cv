@@ -191,7 +191,8 @@ overflow:hidden;
 //*CREDENTIALS*//
 .kwalifikacje{
  min-height:fit-content;
-    
+ background:linear-gradient(135deg,gray,gray,gray,blue);
+ z-index:-2;
 }
 .row{
 border:5px solid green;
@@ -229,7 +230,8 @@ margin-top:2%;
 }
 //*ForkLift*//
 .forkliftPage{
-  
+    background:linear-gradient(135deg,gray,gray,gray,blue);
+    z-index:-20;
 }
 .h1Title{
     text-align:center;
@@ -268,3 +270,25 @@ margin-top:2%;
 .licenceForkLift{
     width:100%;
 }
+//*JS PAGE *//
+.jsPage{
+    background:linear-gradient(135deg,gray,gray,gray,blue);
+    height:fit-content;
+}
+.aboutJS{
+   
+    font-size:1.2rem;
+    text-align:center;
+}
+.h1TitleJs{
+  
+    -webkit-text-stroke:1px blue;
+    color:yellow;
+}
+//*Lorry*//{
+    .loryPage{
+        background:linear-gradient(135deg,gray,gray,gray,blue);
+        height:90vh;
+        text-align:center;
+
+    }

@@ -7,8 +7,7 @@ function JavaScript(props) {
     const dispatch=useDispatch()
     const {height}=bindActionCreators(actionCreator,dispatch)
     useEffect(()=>{
-        height(props.gave.current.offsetHeight)
-props.send.b(!props.send.a)
+
 
     },[])
     const navigate=useNavigate()

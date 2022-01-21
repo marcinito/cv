@@ -13,16 +13,15 @@ import {useDispatch,useSelector} from 'react-redux'
 function Credentials(props) {
    const dispatch=useDispatch()
     const [size,setSize]=useState(0)
-    const [point,setPoint]=useState(false)
     let credRef=useRef()
     const cos =useSelector(state=>state.height.height)
     const {height}=bindActionCreators(actionCreator,dispatch)
- 
 useEffect(()=>{
-   height(props.gave.current.offsetHeight)
+   height(window.innerHeight)
    props.give(true)
    props.send.b(!props.send.a)
 
+  window.event.preventDefault()
 },[])
 console.log(window)
 

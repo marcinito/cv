@@ -10,11 +10,14 @@ function Lorry(props) {
     useEffect(()=>{
         height(props.gave.current.offsetHeight)
 props.send.b(!props.send.a)
+props.give(false)
 
     },[])
     const navigate=useNavigate()
     return (
         <div className="loryPage">
+            <br></br>
+            <br></br>
             <h1 className="h1loryPage"><span style={{color:"darkblue",fontWeight:"bold",WebkitTextStroke:"1px red"}}>HGV</span> Licence Cat C </h1>
            <br/>
            <p>I have obtained the qualifications in <em>03.12.2019</em></p>

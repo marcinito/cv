@@ -32,9 +32,9 @@ useEffect(()=>{
               <Route path="/" element={<Aboutme give={setFlag} send={props.daj} gave={contentRef}/>}></Route>
               <Route path="/contact" element={<Contact give={setFlag} gave={contentRef}  send={props.daj}/>}></Route>
               <Route path="/credentials" element={<Credentials gave={contentRef} send={props.daj} give={setFlag}  />}/>
-              <Route path="/forklift" element={<Forklift gave={contentRef} send={props.daj} />}/>
-              <Route path="/HGV-licence" element={<Lorry send={props.daj} gave={contentRef} />}/>
-              <Route path="/java-script" element={<JavaScript gave={contentRef} send={props.daj} />}/>
+              <Route path="/forklift" element={<Forklift gave={contentRef} send={props.daj} give={setFlag} />}/>
+              <Route path="/HGV-licence" element={<Lorry send={props.daj} gave={contentRef} give={setFlag} />}/>
+              <Route path="/java-script" element={<JavaScript gave={contentRef} send={props.daj} give={setFlag} />}/>
                 
                  
              
