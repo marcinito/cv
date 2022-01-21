@@ -17,7 +17,7 @@ function JavaScript(props) {
             <br/>
             <br/>
             <div className="aboutJS">
-            <h1 className="h1TitleJs">What is JavaScript?Heniekgi</h1>
+            <h1 className="h1TitleJs">What is JavaScript?</h1>
             <br/>
             <p className="answerPJs" style={{color:"darkgreen"}}>JavaScript is a programming language commonly used in web development.</p>
             <br/>

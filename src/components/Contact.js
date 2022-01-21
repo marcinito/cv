@@ -8,10 +8,10 @@ function Contact(props) {
     const stan=useSelector(state=>state.height.height)
     const {height}=bindActionCreators(actionCreator,dispatch)
     useEffect(()=>{
-        props.give(false)
+        // props.give(false)
         
-        height(window.innerHeight)
-        props.send.b(!props.send.a)
+        // height(window.innerHeight)
+        // props.send.b(!props.send.a)
         },[])
        
     return (

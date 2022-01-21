@@ -9,9 +9,9 @@ function Aboutme(props) {
     const {height}=bindActionCreators(actionCreator,dispatch)
     useEffect(()=>{
     props.give(false)
-    console.log(cos)
-    height(window.innerHeight)
-    props.send.b(!props.send.a)
+    
+    // height(window.innerHeight)
+    // props.send.b(!props.send.a)
     },[])
     return (
         <div className="aboutme">
